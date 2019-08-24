@@ -1,0 +1,28 @@
+// Брейкпоинты
+$breakpoints: (
+  "phone": 400px,
+  "tablet": 768px,
+  "desktop": 1248px,
+  "desktop-wide": 1440px
+);
+
+$phone-layout: (
+    footer: (
+        bg: green 
+    )
+);
+
+$tablet-layout: (
+    footer: (
+        bg: pink 
+    )
+);
+
+$desktop-layout: (
+    footer: (
+        bg: red 
+    )    
+);
+
+$default-layout: $desktop-layout;
+$current-layout: $desktop-layout !default;
