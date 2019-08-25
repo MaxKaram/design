@@ -24,7 +24,7 @@ $env:NODE_ENV='dev'
 gulp
 ```
 
-#How to do commits
+# How to do commits
 
 1. build: some changes - made some changes
 
