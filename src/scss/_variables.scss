@@ -7,21 +7,9 @@ $breakpoints: (
 );
 
 $phone-layout: (
-    footer: (
-        bg: green 
+    form: (
+        width: 290px
     )
-);
-
-$tablet-layout: (
-    footer: (
-        bg: pink 
-    )
-);
-
-$desktop-layout: (
-    footer: (
-        bg: red 
-    )    
 );
 
 $default-layout: $desktop-layout;
