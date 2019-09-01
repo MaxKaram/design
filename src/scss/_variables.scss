@@ -1,28 +1,33 @@
+$color-dark: #6d6e70;
+$color-grey: #a2a2a2;
+$color-white: #fff;
+$color-lightgreen: #bcda5c;
+
 // Брейкпоинты
-$breakpoints: (
-  "phone": 400px,
-  "tablet": 768px,
-  "desktop": 1248px,
-  "desktop-wide": 1440px
-);
+$phone: 400px;
+$tablet: 768px;
+$desktop: 1248px;
+$desktop-wide: 1440px;
 
-$phone-layout: (
-    footer: (
-        bg: green 
-    )
-);
+$breakpoints: ("phone": $phone, "tablet": $tablet, "desktop": $desktop, "desktop-wide": $desktop-wide);
 
-$tablet-layout: (
-    footer: (
-        bg: pink 
-    )
-);
-
-$desktop-layout: (
-    footer: (
-        bg: red 
-    )    
-);
-
+$phone-layout: ();
+$tablet-layout: ();
+$desktop-layout: ();
 $default-layout: $desktop-layout;
 $current-layout: $desktop-layout !default;
+
+// Темы
+$link-color-primary: $color-grey;
+$link-themes: (primary: (color: $link-color-primary, hover: (color: darken($link-color-primary, 25%))));
+
+$btn-color-primary: $color-white;
+$btn-bg-primary: $color-lightgreen;
+$btn-themes: (
+	primary:
+		(
+			background: $btn-bg-primary,
+			color: $btn-color-primary,
+			hover: (background: darken($btn-bg-primary, 15%), color: darken($btn-color-primary, 5%))
+		)
+);

@@ -12,17 +12,47 @@
   </head>
 
   <body>
-    <header>
-      <!-- Навигация -->
-      <!-- Слайдер или страница на весь экран -->
-    </header>
-    <main>
+    <div class="wrapper">
+      <header class="header">
+        <!-- Навигация -->
+        <div class="header__left">
+          <div class="logo">
+            <svg class="icon icon-english-language">
+              <use xlink:href="../assets/icons/sprite.svg#english-language"></use>
+            </svg>
+            <div class="logo__text">CROWDME</div>
+          </div>
+        </div>
+  
+        <div class="header__center">
+          <nav class="nav" data-menu-breakpoint='960'>
+            <ul class="nav__list">
+              <li class="nav__item"><a class="link link_primary" href="#" class="nav__link">HOME</a></li>
+              <li class="nav__item"><a class="link link_primary" href="#" class="nav__link">HOW IT WORKS</a></li>
+              <li class="nav__item"><a class="link link_primary" href="#" class="nav__link">DISCOVER A PROJECT</a></li>
+              <li class="nav__item"><a class="link link_primary" href="#" class="nav__link">BLOG</a></li>
+              <li class="nav__item"><a class="link link_primary" href="#" class="nav__link">FIND OUT MORE</a></li>
+              <li class="nav__item"><button class="btn btn_primary">LOGIN</button></li>
+            </ul>
+          </nav>
+        </div>
+  
+        <div class="header__right">
+          <svg class="icon icon-menu-button">
+              <use xlink:href="../assets/icons/sprite.svg#menu-button"></use>
+          </svg>
+        </div>
 
-    </main>
-    <footer class="footer">
-      <!-- Форма -->
-      <!-- Остатки в шаблоне внизу -->
-    </footer>
+        <!-- Слайдер или страница на весь экран -->
+      </header>
+      <main>
+  
+      </main>
+      <footer class="footer">
+        <!-- Форма -->
+        <!-- Остатки в шаблоне внизу -->
+      </footer>
+    </div>
   </body>
 
   <script src="js/script.js"></script>

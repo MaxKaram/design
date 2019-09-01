@@ -1,0 +1,26 @@
+@import "../Logo.scss";
+@import "../Button.scss";
+@import "../Link.scss";
+@import "./MainNav.scss";
+
+.header {
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 85px;
+
+	&__left {
+		flex: 1 1 15%;
+	}
+
+	&__center {
+		flex: 1 1 85%;
+	}
+
+	&__right {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+}

@@ -4,4 +4,14 @@
 @import "_sprites.scss";
 @import "fonts.scss";
 
-@import "./components/Footer.scss";
+@import "./components/Header/index.scss";
+
+body {
+	margin: 0;
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding: 0 20px;
+	max-width: 1300px;
+}
