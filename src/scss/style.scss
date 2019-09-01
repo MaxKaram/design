@@ -3,29 +3,3 @@
 @import "_functions.scss";
 @import "_sprites.scss";
 @import "fonts.scss";
-
-@import "./components/Header/index.scss";
-
-body {
-	margin: 0;
-}
-
-.wrapper {
-	margin: 0 auto;
-	padding: 0 20px;
-	max-width: 1300px;
-}
-
-.icon-english-language {
-	@include fs(font-size, 25, 40);
-}
-
-.icon-menu-button {
-	display: none;
-	font-size: 2rem;
-	fill: #000;
-
-	&_visible {
-		display: inline-block;
-	}
-}
