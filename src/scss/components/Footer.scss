@@ -110,10 +110,6 @@ body {
                 color: #212121;
             }
         }
-
-        @include mq('phone', $phone-layout) {
-            width: 310px;
-        }
     }
 
     &__bottom {
@@ -125,13 +121,11 @@ body {
             font-size: 13px;
         }
     }
+}
 
 
-    @include mq('tablet', $tablet-layout) {
-        
-    }
-
-    @include mq('phone', $phone-layout) {
-        
+@media(max-width: 400px) {
+    .footer-form {
+        width: 310px;
     }
 }
