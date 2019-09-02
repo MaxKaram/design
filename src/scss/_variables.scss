@@ -8,9 +8,17 @@ $breakpoints: (
 
 $phone-layout: (
     form: (
-        width: 290px
+        width: 300px
     )
 );
+
+$desktop-layout: (
+    form: (
+        width: 330px
+    )
+);
+
+
 
 $default-layout: $desktop-layout;
 $current-layout: $desktop-layout !default;
