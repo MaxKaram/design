@@ -19,113 +19,112 @@
   font-weight: normal;
   font-style: normal; }
 
-body {
-  margin: 0; }
+.form {
+  border-radius: 8px;
+  width: 330px;
+  margin: 15px auto;
+  background: #03a9f4; }
+  .form__header {
+    padding: 15px 0;
+    text-align: center;
+    font-size: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .form__header svg {
+      width: 26px;
+      height: 26px; }
+    .form__header use {
+      fill: #fff; }
+    .form__header h3 {
+      margin: 0;
+      color: #fff;
+      font-family: "Roboto Medium";
+      font-weight: normal; }
+  .form__main {
+    background: #fafafa;
+    padding: 30px 0;
+    margin: 0 auto;
+    text-align: center; }
+    .form__main button {
+      width: 270px;
+      font-size: 16px;
+      color: #fff;
+      background: #dd6058;
+      padding: 17px 0;
+      border: none;
+      border-radius: 5px;
+      margin-left: 6px;
+      cursor: pointer;
+      font-family: "Roboto Black"; }
+  .form__input-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20px; }
+    .form__input-block svg {
+      width: 30px;
+      height: 30px;
+      padding: 0;
+      margin-left: -36px;
+      cursor: pointer; }
+    .form__input-block use {
+      fill: #bdbdbd; }
+    .form__input-block input {
+      font-size: 16px;
+      width: 270px;
+      height: 46px;
+      padding-left: 6px;
+      border: 2px solid #e0e0e0;
+      border-radius: 4px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      font-family: "Roboto Medium"; }
+    .form__input-block input::-webkit-input-placeholder {
+      color: #bdbdbd;
+      font-family: "Roboto Medium"; }
+    .form__input-block input::-moz-placeholder {
+      color: #bdbdbd;
+      font-family: "Roboto Medium"; }
+    .form__input-block input:-ms-input-placeholder {
+      color: #bdbdbd;
+      font-family: "Roboto Medium"; }
+    .form__input-block input::-ms-input-placeholder {
+      color: #bdbdbd;
+      font-family: "Roboto Medium"; }
+  .form__footer {
+    background: #eee;
+    padding: 20px 0;
+    border-radius: 0 0 8px 8px;
+    text-align: center; }
+    .form__footer a {
+      color: #000;
+      text-decoration: none;
+      color: #757575;
+      margin: 0 7px 0 7px;
+      font-family: "Roboto Medium"; }
+    .form__footer a.active {
+      color: #212121; }
+
+@media (max-width: 400px) {
+  .form {
+    width: 300px; } }
 
 .footer {
   width: 100%;
   padding: 0; }
-  .footer__form {
-    border-radius: 8px;
-    width: 330px;
-    margin: 15px auto;
-    background: #03a9f4; }
-    .footer__form__header {
-      padding: 15px 0;
-      text-align: center;
-      font-size: 24px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; }
-      .footer__form__header svg {
-        width: 26px;
-        height: 26px; }
-      .footer__form__header use {
-        fill: #fff; }
-      .footer__form__header h3 {
-        margin: 0;
-        color: #fff;
-        font-family: "Roboto Medium";
-        font-weight: normal; }
-    .footer__form__main {
-      background: #fafafa;
-      padding: 30px 0;
-      margin: 0 auto;
-      text-align: center; }
-      .footer__form__main button {
-        width: 270px;
-        font-size: 16px;
-        color: #fff;
-        background: #dd6058;
-        padding: 17px 0;
-        border: none;
-        border-radius: 5px;
-        margin-left: 6px;
-        cursor: pointer;
-        font-family: "Roboto Black"; }
-    .footer__form__input-block {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      margin-bottom: 20px; }
-      .footer__form__input-block svg {
-        width: 30px;
-        height: 30px;
-        padding: 0;
-        margin-left: -36px;
-        cursor: pointer; }
-      .footer__form__input-block use {
-        fill: #bdbdbd; }
-      .footer__form__input-block input {
-        font-size: 16px;
-        width: 270px;
-        height: 46px;
-        padding-left: 6px;
-        border: 2px solid #e0e0e0;
-        border-radius: 4px;
-        -webkit-box-sizing: border-box;
-                box-sizing: border-box;
-        font-family: "Roboto Medium"; }
-      .footer__form__input-block input::-webkit-input-placeholder {
-        color: #bdbdbd;
-        font-family: "Roboto Medium"; }
-      .footer__form__input-block input::-moz-placeholder {
-        color: #bdbdbd;
-        font-family: "Roboto Medium"; }
-      .footer__form__input-block input:-ms-input-placeholder {
-        color: #bdbdbd;
-        font-family: "Roboto Medium"; }
-      .footer__form__input-block input::-ms-input-placeholder {
-        color: #bdbdbd;
-        font-family: "Roboto Medium"; }
-    .footer__form__footer {
-      background: #eee;
-      padding: 20px 0;
-      border-radius: 0 0 8px 8px;
-      text-align: center; }
-      .footer__form__footer a {
-        color: #000;
-        text-decoration: none;
-        color: #757575;
-        margin: 0 7px 0 7px;
-        font-family: "Roboto Medium"; }
-      .footer__form__footer a.active {
-        color: #212121; }
-    @media screen and (max-width: 399px) {
-      .footer__form {
-        width: 310px; } }
   .footer__bottom {
     text-align: center;
     padding: 25px 0;
